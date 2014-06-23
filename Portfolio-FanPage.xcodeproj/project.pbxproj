@@ -13,7 +13,7 @@
 		A2B5A69E195805FF0082C443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B5A69C195805FF0082C443 /* InfoPlist.strings */; };
 		A2B5A6A0195805FF0082C443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B5A69F195805FF0082C443 /* main.m */; };
 		A2B5A6A4195805FF0082C443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B5A6A3195805FF0082C443 /* AppDelegate.m */; };
-		A2B5A6A7195805FF0082C443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B5A6A5195805FF0082C443 /* Main.storyboard */; };
+		A2B5A6A7195805FF0082C443 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B5A6A5195805FF0082C443 /* iPhone.storyboard */; };
 		A2B5A6AA195805FF0082C443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B5A6A9195805FF0082C443 /* ViewController.m */; };
 		A2B5A6AC195805FF0082C443 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B5A6AB195805FF0082C443 /* Images.xcassets */; };
 		A2B5A6B3195805FF0082C443 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B5A6B2195805FF0082C443 /* XCTest.framework */; };
@@ -44,7 +44,7 @@
 		A2B5A6A1195805FF0082C443 /* Portfolio-FanPage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Portfolio-FanPage-Prefix.pch"; sourceTree = "<group>"; };
 		A2B5A6A2195805FF0082C443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2B5A6A3195805FF0082C443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2B5A6A6195805FF0082C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B5A6A6195805FF0082C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		A2B5A6A8195805FF0082C443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2B5A6A9195805FF0082C443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2B5A6AB195805FF0082C443 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			children = (
 				A2B5A6A2195805FF0082C443 /* AppDelegate.h */,
 				A2B5A6A3195805FF0082C443 /* AppDelegate.m */,
-				A2B5A6A5195805FF0082C443 /* Main.storyboard */,
+				A2B5A6A5195805FF0082C443 /* iPhone.storyboard */,
 				A2B5A6A8195805FF0082C443 /* ViewController.h */,
 				A2B5A6A9195805FF0082C443 /* ViewController.m */,
 				A2B5A6AB195805FF0082C443 /* Images.xcassets */,
@@ -230,7 +230,7 @@
 			files = (
 				A2B5A6AC195805FF0082C443 /* Images.xcassets in Resources */,
 				A2B5A69E195805FF0082C443 /* InfoPlist.strings in Resources */,
-				A2B5A6A7195805FF0082C443 /* Main.storyboard in Resources */,
+				A2B5A6A7195805FF0082C443 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A2B5A6A5195805FF0082C443 /* Main.storyboard */ = {
+		A2B5A6A5195805FF0082C443 /* iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A2B5A6A6195805FF0082C443 /* Base */,
 			);
-			name = Main.storyboard;
+			name = iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		A2B5A6BB195805FF0082C443 /* InfoPlist.strings */ = {
